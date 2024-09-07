@@ -4,7 +4,7 @@ Tạo file README.MD : file mô tả cho mọi người biết file này có tá
 
 2. git status : Theo dõi project nếu có file mới, hoặc khi thay đổi nội dung thì nó sẽ báo
 3. git add : lưu thông tin để chuẩn bị commit
-4. git commit : đóng gói (hiểu đơn giản đóng gói thành 1 cái hộp và dán thành 1 cái tem, đánh dấu lại)
+4. git commit -m : đóng gói (hiểu đơn giản đóng gói thành 1 cái hộp và dán thành 1 cái tem, đánh dấu lại)
 5. git log : Xem lịch sử commit đã được tạo
 6. git show id_commit : Xem nội dung thay đổi của 1 commit
 7. git diff : Kiểm tra sự thay đổi
