@@ -54,3 +54,7 @@ Tiếp theo lại checkout sang branch conflict
 Dùng git merge để merge code vào branch : git merge main
 Fix conflic: sẽ lấy code ở đoạn nào (demo)
 Cuối cùng là đẩy code lên như bình thường : git add -> git commit -> git push lên branch bị conflic
+
+-----------------------20240907update----
+git switch -c tennhanhadd_register_form tao nhanh moi va chuyen sang nhanh do
+
