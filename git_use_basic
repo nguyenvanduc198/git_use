@@ -57,4 +57,6 @@ Cuối cùng là đẩy code lên như bình thường : git add -> git commit -
 
 -----------------------20240907update----
 git switch -c tennhanhadd_register_form tao nhanh moi va chuyen sang nhanh do
+*luu y: khi push lan dau thi co -u lenh nhu sau git push -u origin ten_nhanh
+        khi push tu lan sau thi khong co -u
 
