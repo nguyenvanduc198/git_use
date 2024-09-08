@@ -1,0 +1,27 @@
+push on ubuntu 
+Vs code 
+push https
+Để chuyển từ sử dụng SSH sang HTTPS cho remote của Git, bạn cần thực hiện các bước sau:
+1. Thay đổi URL của remote từ SSH sang HTTPS
+
+Chạy lệnh sau để thay đổi URL từ SSH (hiện tại là git@github.com:...) sang HTTPS:
+
+git remote set-url origin https://github.com/nguyenvanduc198/loginform_php.git
+
+Sau khi thực hiện lệnh này, Git sẽ sử dụng HTTPS thay vì SSH để kết nối với GitHub.
+2. Kiểm tra lại URL của remote
+
+Để xác nhận rằng URL đã được thay đổi thành HTTPS, bạn có thể kiểm tra lại bằng lệnh:
+
+git remote -v
+
+Kết quả hiển thị sẽ là:
+
+origin  https://github.com/nguyenvanduc198/loginform_php.git (fetch)
+origin  https://github.com/nguyenvanduc198/loginform_php.git (push)
+
+3. Thực hiện git push với HTTPS
+
+Sau khi đổi remote sang HTTPS, thử thực hiện lại lệnh git push:
+
+git push origin loginform
