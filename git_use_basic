@@ -60,3 +60,10 @@ git switch -c tennhanhadd_register_form tao nhanh moi va chuyen sang nhanh do
 *luu y: khi push lan dau thi co -u lenh nhu sau git push -u origin ten_nhanh
         khi push tu lan sau thi khong co -u
 
+-----------------------20240910update----
+
+khi bi loi error: remote origin already exists.
+ta can  Cập Nhật URL Kho Lưu Trữ Từ Xa bang lenh sau
+git remote set-url origin https://github.com/nguyenvanduc198/hottel-booking-ude.git
+
+
